@@ -1,0 +1,82 @@
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2s linear;
+  }
+}
+.App-header {
+  margin-top: 100px;
+}
+
+.App-link {
+  font-size: large;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: background-color .5s;
+}
+  a:hover {
+    font-size: 20px;
+    background-color: gold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(500deg);
+  }
+}
+
+.Navi {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: start;
+}
+
+p {
+  margin-left: 10px;
+  display: flex;
+  justify-content: start;
+  font-weight: bolder;
+}
+.Macbox {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Mac-logo {
+  max-width: 20%;
+  max-height: 20%;
+  position: relative;
+}
+.Mac-logo:hover {
+  width: 200px;
+  animation: mac-logo-spin infinite 0s linear;
+} 
+@media (prefers-reduced-motion: no-preference) {
+  .Mac-logo {
+    animation: mac-logo-spin infinite 10s linear;
+	animation-iteration-count : infinite;  /* 애니메이션을 무한 반복하고, */
+    animation-timing-function : linear;
+    }
+}
+@keyframes mac-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(500deg);
+  }
+}
