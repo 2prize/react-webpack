@@ -10,7 +10,7 @@ const Main = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-         react를 학습해보세요~
+         react를 학습해보세요~~
         </a>
         <a
           className="App-link"
@@ -18,7 +18,7 @@ const Main = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-         webpack를 학습해보세요~
+         webpack를 학습해보세요~~
         </a>
         </header>
         </div>

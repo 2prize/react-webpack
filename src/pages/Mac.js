@@ -7,6 +7,7 @@ const Mac = () => {
         <div className='Macbox'>
             <img src={mac} className="Mac-logo" alt="Mac" />
         </div>
+        
     );
 };
 

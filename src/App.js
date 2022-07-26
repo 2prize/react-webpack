@@ -8,7 +8,7 @@ function App() {
   return (
     < >
     <Nav />
-    <div className="App">
+    <div className='App'>
       <header className="App-header">
         <Mac />
        <Main />

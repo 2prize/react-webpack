@@ -10,6 +10,7 @@ const Nav = () => {
           React 배포하기 test용 app 입니다요~
         </p>
         </div>
+        
     );
 };
 
