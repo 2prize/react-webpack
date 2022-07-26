@@ -1,11 +1,13 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 const port = process.env.PORT || 3000;
 
 module.exports = {
     mode: 'development', 
     entry: './src/index.js',
     output: {
-        filename:'bundle.[hash].js'
+        path: path.resolve(__dirname, 'docs'), // './dist'의 절대 경로를 리턴합니다.
+        filename: 'app.bundle.js',
     },
     module: {
         rules: [
